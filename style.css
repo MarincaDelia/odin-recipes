@@ -6,7 +6,7 @@ body{
     font-family: Georgia, "Times New Roman", sans-serif;
     background-color: bisque;
     line-height: 1.6;
-    max-width: 700px;
+    max-width: 700px auto;
 }
 .lasagna{
     background-color: darksalmon;
