@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, "Times New Roman", sans-serif;
+    background-color: bisque;
+    line-height: 1.6;
+    max-width: 700px;
+}
+.lasagna{
+    background-color: darksalmon;
+}
+.tiramisu{
+    background-color:brown;
+    color:white;
+}
+.guacamole{
+    background-color:darkkhaki;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+
+    font-size: 20px;
+    color:lightblue;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+}
+.home{
+    display: inline-block;
+    border:1px solid black;
+    color:black;
+    padding:6px 16px;
+    border-radius: 4px;
+}
+.homet{
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+.home:hover{
+    background-color: darkred;
+    color:white;
+}
+.homet:hover{
+    background-color: beige;
+    color:darkred;
+}
+
+ul li,
+ol li{
+    margin-bottom: 6px;
+}
+
+ol li::marker{
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin:16px auto;
+    border-radius: 8px;
+}
